@@ -1,0 +1,134 @@
+body
+{
+	mardin: 0;
+}
+*
+{
+	box-sizing: border-box;
+}
+.header
+{
+	height: 100px;
+	background: black;
+	display: flex;
+}
+.header .logo
+{
+	height: 100px;
+	widht: 10%;
+	background: white;
+	padding: 5px;
+}
+img
+{
+  border-radius: 50%;
+}
+.header .cname
+{
+  height: 100px;
+  width: 90%;
+	background: url(C:/Users/jnpat/Desktop/web/image/sunset-coast-lake-nature-landscape-260nw-1960131820.jpg);
+	background-size: 100% 100%;
+	padding:20px 20px 20px 80px;
+	text-align: center;
+	font-size: 50px;
+}
+.header .cname ul
+{
+	margin: 0;
+	padding:0;
+}
+.header .cname ul li
+{
+	list-style: none;
+	display: inline;
+	padding-right: 100px;
+}
+.header .cname ul li a
+{
+  text-decoration: none;
+  color: lightskyblue;
+  background: ;
+}
+.header .cname ul li a:hover
+{
+	color: white;
+	background: linear-gradient(lightblue,coral);
+border-radius: 9px;
+box-shadow: 0px 0px 50px black inset ;
+}
+.y
+{
+	height: auto;
+	background: black;
+	display: flex;
+	margin-top: 20px;
+}
+.y .a 
+{
+	height: auto;
+	width: 20%;
+	background: coral;
+}
+.y .b
+{
+	height: auto;
+	width: 80%;
+	background: limegreen;
+	padding: 50px;
+}
+.y .b .form
+{
+	height: auto;
+	width: 40%;
+	background: linear-gradient(blue,lightcoral);
+	padding: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 20px;
+	margin: auto;
+}
+input[type="text"] , input[type="password"],input[type="email"]
+{
+	height: 40px;
+	border: none;
+	border-bottom: 2px solid black;
+	background: transparent;
+	border-radius: 9px;
+}
+input[type="text"]:focus , input[type="password"]:focus ,input[type="email"]:focus
+{
+	outline: none;
+	background: white;
+	box-shadow: 5px 5px 10px lightsalmon; inset;
+}
+input[type="submit"] ,input[type="reset"]
+{
+	font-size: 20px;
+}
+input[type="submit"]:hover
+{
+	background: blue;
+	color: white;
+	box-shadow: 0px 0px 10px red inset;
+}
+input[type="reset"]:hover
+{
+	background: blue;
+	color: white;
+	box-shadow: 0px 0px 10px red inset;
+}
+.y .c
+{
+	height: auto;
+	width: 20%;
+	background: coral;
+}
+.slider .g
+{
+	height: 700px;
+	background:url(C:/Users/jnpat/Desktop/web/image/spider.jpg);
+	background-size:100% 100% ;
+	color: white;
+}
+

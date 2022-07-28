@@ -1,0 +1,11 @@
+@media screen and (max-width: 900px)
+{
+	.a
+	{
+		height: 600px;
+		 	width: 100%;
+		 	background:blue;
+		 	margin: auto;
+		 	margin-top: 50px;
+	}
+}
